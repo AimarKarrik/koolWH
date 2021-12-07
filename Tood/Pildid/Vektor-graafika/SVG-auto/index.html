@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animeeritud svg autoy</title>
+    </head>
+    <body>        
+    <svg width="800" height="800">
+        <defs>
+            <lineargradient id="myGradient" gradientTransform="rotate(90)">
+                <stop offset="20%" stop-color="gold" />
+                <stop offset="90%" stop-color="red" />
+            </lineargradient>
+        </defs>
+        <!-- autotee -->
+        <path d="M 100 300 Q 150 0 200 300 Q 250 600 300 300 Q 350 450 400 300 C 450 250 450 50 500 50 C 550 50 550 550 600 300 A 50 50 0 1 1 700 300 " style="stroke: grey; stroke-width: 100px; fill: none;"></path>
+        <!-- auto -->
+        <g id="Group_1" data-name="Group 1" transform="translate(-253 -325.537)">
+			<path id="Polygon_1" data-name="Polygon 1" d="M70,0l70,49H0Z" transform="translate(253 335.483)" fill="#ffd500"/>
+			<path id="Path_1" data-name="Path 1" d="M25.9,1.869,52.684,16.848.878,13.11Z" transform="translate(328.999 323.483) rotate(31)" fill="#07f"/>
+			<g id="Polygon_6" data-name="Polygon 6" transform="translate(311 338.483)" fill="#e2bd03">
+			  <path d="M 23.34919166564941 44.5 L 0.6508078575134277 44.5 L 11.99999046325684 1.940529942512512 L 23.34919166564941 44.5 Z" stroke="none"/>
+			  <path d="M 11.99999046325684 3.881023406982422 L 1.301605224609375 44 L 22.69839286804199 44 L 11.99999046325684 3.881023406982422 M 11.99999046325684 0 L 24 45 L 0 45 L 11.99999046325684 0 Z" stroke="none" fill="#707070"/>
+			</g>
+			<line id="Line_1" data-name="Line 1" x1="3.883" transform="translate(326.426 365.058)" fill="none" stroke="#707070" stroke-width="1"/>
+			<g id="Ellipse_1" data-name="Ellipse 1" transform="translate(278 374.483)" stroke="#000" stroke-width="1">
+			  <ellipse cx="8.5" cy="10" rx="8.5" ry="10" stroke="none"/>
+			  <ellipse cx="8.5" cy="10" rx="8" ry="9.5" fill="none"/>
+			</g>
+			<g id="Ellipse_2" data-name="Ellipse 2" transform="translate(351 374.483)" stroke="#000" stroke-width="1">
+			  <ellipse cx="8.5" cy="10" rx="8.5" ry="10" stroke="none"/>
+			  <ellipse cx="8.5" cy="10" rx="8" ry="9.5" fill="none"/>
+			</g>
+			<animatemotion path="M 100 300 Q 150 0 200 300 Q 250 600 300 300 Q 350 450 400 300 C 450 250 450 50 500 50 C 550 50 550 550 600 300 A 50 50 0 1 1 700 300 " begin="0s" dur="25s" repeatCount="indefinite" rotate="auto"></animatemotion>
+		  </g>
+    </svg>
+</body>
+</html>
+<!--<animateMotion path="M 100 300 Q 150 0 200 300 Q 250 600 300 300 Q 350 450 400 300 C 450 250 450 50 500 50 C 550 50 550 550 600 300 A 50 50 0 1 1 700 300 " begin="0s" dur="25s" repeatCount="indefinite" rotate="auto"></animateMotion>-->

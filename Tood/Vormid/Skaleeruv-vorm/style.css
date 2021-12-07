@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+form{
+	display: inline-block;
+	background-color: #deeef3;
+	padding: 20px;
+	border-color: #abc9cb;
+	border-width: thick;
+	border-radius: 10px;
+}
+
+form h1{
+	text-align: center;
+	color: purple;
+	
+}
+
+label span{
+	color: royalblue;
+}
+
+button{
+	border: 1px solid blue;
+	border-radius: 2px;
+	padding: 3px;
+	background-color: steelblue;
+	color: white;
+}
+
+iframe{
+	position:absolute;
+	top: 350px;
+}
+
+@media screen and (max-width:979px){
+	form{
+		border-radius: 0px;
+		background-color: red;
+		flex: 0 1 100%;
+	}
+	div input{
+		width: 100%
+	}
+}

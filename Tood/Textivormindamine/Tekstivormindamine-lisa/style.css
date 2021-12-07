@@ -1,0 +1,82 @@
+/*siin on css */
+
+h1 {
+	text-align: left;
+	font: normal normal bold 44px/53px Verdana;
+	letter-spacing: 0px;
+	color: #A3D395;
+	opacity: 1;
+}
+
+h2{
+	text-align: left;
+	font: normal normal bold 24px/29px Verdana;
+	letter-spacing: 0.24px;
+	color: #709665;
+	text-transform: uppercase;
+	opacity: 1;
+}
+
+h3{
+	background-color: aqua;
+	font-family: sans-serif;
+	font-size: 60px;
+}
+
+h4{
+	font-family: Arial;
+	font-style: italic;
+	color: blueviolet;
+	font-size: 10px;
+}
+
+h5{
+	text-align: center;
+	background: #4800EF;
+	color: #FFFFFF;
+	font-family:"DejaVu Serif";
+	font-weight: 900;
+}
+
+h6{
+	letter-spacing: 20px;
+	font-family: Verdana;
+	font-weight: bolder;
+	
+}
+
+p1 {
+	text-align: left;
+	letter-spacing: 0px;
+	color: #463B3B;
+	opacity: 1;
+}
+
+p2{
+	text-align: left;
+	font: normal normal normal 18px/26px Times;
+	letter-spacing: 0px;
+	color: #707070;
+}
+
+p1 span{
+	text-align: left;
+	font: italic normal normal 18px/26px Times;
+	letter-spacing: 0px;
+	color: #463B3B;
+}
+
+p2 span{
+	text-align: left;
+	font: normal normal bold 18px/26px Times;
+	letter-spacing: 0px;
+	color: #707070;
+}
+
+a{
+	text-align: left;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	color: #50A8FF;
+	opacity: 1;
+}

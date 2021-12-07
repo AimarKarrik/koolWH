@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body main div {
+    width: 18rem;
+    min-height: 400px;
+    margin: 10px;
+    border: 1px solid #cecece;
+    border-radius: 20px;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.button button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background: #c7d5fc;
+    color: #060686;
+}
+
+/* Text */
+p {
+    font-family:sans-serif;
+	text-align: left;
+	font-size: 0.9rem;
+	color: #616161;
+    width: calc(100% - 50px);
+    padding: 15px 25px 0 25px;
+    margin: 0;
+}
+
+ol {
+    margin: 5px 25px;
+}
+
+li {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    color: #616161;
+    padding: 5px 0;
+}
+
+h1 {
+    
+    text-align: center;
+	font-size: 2rem;
+    color: #060686;
+	width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+h3 {
+    font-family: sans-serif;
+    width: 100%;
+	font-size: 0.7rem;
+    text-align: center;
+    color: #4fa056;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+/* Hover */
+
+body main .hover:hover{
+    border: 2px solid blue;
+    box-shadow: 0px 0px 5px  blue;
+}
+
+#popular{
+	color: red;
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	display: flex;
+	background: url("error.gif");
+	background-size: auto;
+}
+
+main {
+    width: 150px;
+    min-height: 150px;
+    background: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: left;
+    font-family: Arial;
+	padding: 10px;
+    font-size: 24px;
+}
+
+p {
+    text-align: left;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 10px;
+}
+a{
+	color: midnightblue;
+	text-align: left;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 10px;
+}

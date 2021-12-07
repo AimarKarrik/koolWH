@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+form{
+	display: inline-block;
+	background-color: #deeef3;
+	padding: 20px;
+	border-color: #abc9cb;
+	border-width: thick;
+	border-radius: 10px;
+}
+label span{
+	color: royalblue;
+}
+
+button{
+	border: 1px solid blue;
+	border-radius: 2px;
+	padding: 3px;
+	background-color: steelblue;
+	color: white;
+}

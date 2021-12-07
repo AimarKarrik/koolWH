@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@font-face {
+	font-family: SourceSansPro-Regular;
+	src: url("SourceSansPro-Regular.woff");
+}
+
+
+h1 {
+	font-family: arial;
+}
+
+h2 {
+	font-family: SourceSansPro-Regular;
+}
+
+h3 {
+	font-family: ubuntu;
+}
+
+a:hover {
+	font: bold;
+}
