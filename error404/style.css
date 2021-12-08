@@ -2,34 +2,21 @@
 /* CSS Document */
 
 body{
-	display: flex;
 	background: url("error.gif");
 	background-size: auto;
 }
 
-main {
+.errorMessageBox {
+    display: block;
+    position: absolute;
+    top: 50%;
     width: 150px;
-    min-height: 150px;
+    height: 150px;
     background: rgb(255, 255, 255);
 }
 
-h1 {
-    text-align: left;
+.errorMessage{
     font-family: Arial;
-	padding: 10px;
-    font-size: 24px;
+    margin-left: 10px;
 }
 
-p {
-    text-align: left;
-    font-family: Arial;
-    font-size: 16px;
-    padding: 10px;
-}
-a{
-	color: midnightblue;
-	text-align: left;
-    font-family: Arial;
-    font-size: 16px;
-    padding: 10px;
-}
