@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+#herobg{
+    background-image: url("images/halo-6.jpg");
+    background-position: 40%;
+}
+#feedbackForm{
+    font-family: Orbitron;
+}
+#navbar{
+    font-family: Orbitron;
+}
+#gridDemo{
+    font-family: Orbitron;
+}
+#listDemo{
+    font-family: Orbitron;
+}
