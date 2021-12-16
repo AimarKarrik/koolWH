@@ -1,0 +1,13 @@
+.primary-bgc{
+    background-color: green;
+}
+#hero{
+    background-image: url(images/Hero-BG.jpg);
+    background-size: cover;
+}
+#heroSlogan{
+    background-color: grey;
+}
+.footer-element-bg{
+    background-color: forestgreen;
+}
