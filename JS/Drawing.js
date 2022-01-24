@@ -15,29 +15,52 @@ function init(){
         //meri
 
         ctx.beginPath();
-		ctx.moveTo(0,300);
-		ctx.quadraticCurveTo(0,500,300,500);
-		ctx.stroke();
-		ctx.beginPath();
-		ctx.moveTo(500,300);
-		ctx.quadraticCurveTo(200,500,100,500);
+		ctx.moveTo(0,500);
+		ctx.quadraticCurveTo(100,600,200,500);
 		ctx.stroke();
 
-        //Stiilid päikese ja selle kiirte jaoks
-		
+		ctx.beginPath();
+		ctx.moveTo(200,500);
+		ctx.quadraticCurveTo(300,600,400,500);
+		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.moveTo(400,500);
+		ctx.quadraticCurveTo(500,600,600,500);
+		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.moveTo(600,500);
+		ctx.quadraticCurveTo(700,600,800,500);
+		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.moveTo(800,500);
+		ctx.quadraticCurveTo(900,600,1000,500);
+		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.moveTo(1000,500);
+		ctx.quadraticCurveTo(1100,600,1200,500);
+		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.moveTo(1200,500);
+		ctx.quadraticCurveTo(1300,600,1400,500);
+		ctx.stroke();
+
+		//päikse stiilid
+
 		ctx.fillStyle="#FF0";
 		ctx.strokeStyle="#FF0";
-		
-		
-		//Päike
-		
+
+		//päike
+
 		ctx.beginPath();
 		ctx.arc(900,100,50,0,Math.PI/180,true);
 		ctx.stroke();
 		ctx.fill();
-		
-		//Päikesekiired
-		
+
 		ctx.beginPath();
 		ctx.moveTo(900,50);
 		ctx.lineTo(900,5);
