@@ -4,3 +4,7 @@
 .footer-element-bg{
     background-color: forestgreen;
 }
+#bg{
+    background-image: url(../Images/kaart.png);
+    background-size: cover;
+}
